@@ -27,10 +27,19 @@ header .container{
 .container img{
     max-width: 200px;
     max-height: 200px;
+    transition: .4s ease all ;
 }
 
 header .logo{
     margin-left: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.logo:hover{
+    max-width: 230px;
+    max-height: 230px;
+
 }
 
 header nav a{
@@ -72,6 +81,11 @@ header nav a:hover{
     max-height: 500px;
 }
 
+.titulo:hover{
+    max-width:225px ;
+    max-height:225px ;
+}
+
 .botao{
     background-color: rgba(0,0,0,.50) ;
     border: none;
@@ -107,6 +121,8 @@ header nav a:hover{
     display: block;
 }
 
+
+
 .carrosel-filmes{
         margin-top: 5px;
 }
@@ -114,3 +130,4 @@ header nav a:hover{
 .first-nav{
     margin-right: 50px;
 }
+
